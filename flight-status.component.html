@@ -1,0 +1,8 @@
+<div>
+  <h1>Flight Status</h1>
+  <ul>
+    <li *ngFor="let flight of flights">
+      {{ flight.airline }} - {{ flight.flightNumber }}: {{ flight.status }}
+    </li>
+  </ul>
+</div>
